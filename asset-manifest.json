@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/nft-maker/static/css/main.77a2dad2.chunk.css",
-    "main.js": "/nft-maker/static/js/main.cae8b3f3.chunk.js",
-    "main.js.map": "/nft-maker/static/js/main.cae8b3f3.chunk.js.map",
+    "main.js": "/nft-maker/static/js/main.d4b0f989.chunk.js",
+    "main.js.map": "/nft-maker/static/js/main.d4b0f989.chunk.js.map",
     "runtime-main.js": "/nft-maker/static/js/runtime-main.114f67ee.js",
     "runtime-main.js.map": "/nft-maker/static/js/runtime-main.114f67ee.js.map",
     "static/js/2.a510d4d3.chunk.js": "/nft-maker/static/js/2.a510d4d3.chunk.js",
@@ -16,6 +16,6 @@
     "static/js/runtime-main.114f67ee.js",
     "static/js/2.a510d4d3.chunk.js",
     "static/css/main.77a2dad2.chunk.css",
-    "static/js/main.cae8b3f3.chunk.js"
+    "static/js/main.d4b0f989.chunk.js"
   ]
 }
