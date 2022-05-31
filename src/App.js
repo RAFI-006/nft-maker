@@ -14,7 +14,8 @@ import {
     Badge
   } from 'react-bootstrap';
 const CONTRACT_ADDRESS =
-  "0x3e715ed257cada6Cc461F97f031D3f978a463bA1";
+  "0x2abB474B84934279CdECAC26286B40d3445558b3";
+  
 
 
 // Constants
@@ -102,7 +103,7 @@ const ipfs = ipfsHttpClient('https://ipfs.infura.io:5001/api/v0');
         const connectedContract = new ethers.Contract(CONTRACT_ADDRESS, myEpicNft.abi, signer);
 
         console.log("Going to pop wallet now to pay gas...")
-        let nftTxn = await connectedContract.makeAnEpicNFT(uploaded,title,description);
+        let nftTxn = await connectedContract.makeAnEpicNFT(`ipfs://${uploaded}`,title,description);
 
         console.log("Mining...please wait.")
         await nftTxn.wait();
@@ -332,9 +333,9 @@ return  <div className='wallet-notconnected-view-div' >
 />   
 
 
-<p>Connect to Rinkeyny Wallet and Create your NFT's</p>
+<p>Connect to Rinkeyby Wallet and Create your NFT's.</p>
 
-<p>Make Sure you have enough balance in your account to do transaction</p>
+<p>Make Sure you have enough balance in your account to do transactions.</p>
 </div>
 }
 
